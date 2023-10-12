@@ -2,6 +2,11 @@
 
   "item.leatherplus.strapcutter": "Strap Cutter",
   "item.leatherplus.straps": "Leather Straps",
+  "item.leatherplus.steel": "Steel",
+  "item.leatherplus.steel_chunk": "Steel Chunk",
+  "item.leatherplus.steel_nugget": "Steel Nugget",
+
+  "block.leatherplus.steel_block": "Steel Block",
 
   "creativetab.leatherplus_tab": "Leather Plus Tab"
 }

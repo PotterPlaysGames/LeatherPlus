@@ -20,6 +20,15 @@ public class ModItems {
     public static final RegistryObject<Item> STRAPS = ITEMS.register("straps",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> STEEL = ITEMS.register("steel",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> STEEL_CHUNK = ITEMS.register("steel_chunk",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
+            () -> new Item(new Item.Properties()));
+
     //////////////////////////////////////////////////////
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

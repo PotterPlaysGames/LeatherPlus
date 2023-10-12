@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.potterplaysgames.leatherplus.LeatherPlus;
+import net.potterplaysgames.leatherplus.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -19,6 +20,10 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.STRAPS.get());
                         pOutput.accept(ModItems.STRAPCUTTER.get());
+                        pOutput.accept(ModItems.STEEL.get());
+                        pOutput.accept(ModItems.STEEL_NUGGET.get());
+                        pOutput.accept(ModItems.STEEL_CHUNK.get());
+                        pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                     })
                     .build());
 
