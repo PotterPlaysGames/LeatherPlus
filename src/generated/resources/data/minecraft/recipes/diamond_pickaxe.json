@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "LSL",
+    " S "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "leatherplus:straps"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_pickaxe",
+    "count": 1
+  }
+}
