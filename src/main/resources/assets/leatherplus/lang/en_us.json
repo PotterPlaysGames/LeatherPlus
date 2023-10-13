@@ -1,10 +1,16 @@
 {
 
+  "item.leatherplus.strapcutterhandle": "Wooden Handle",
+  "item.leatherplus.strapcutterblade": "Steel Strap Cutter Blade",
+  "item.leatherplus.strapcutterbolt": "Steel Bolt",
+  "item.leatherplus.strapcutterinsert": "Strap Cutter Insert",
+  "item.leatherplus.strapcutterplate": "Strap Cutter Plate",
   "item.leatherplus.strapcutter": "Strap Cutter",
   "item.leatherplus.straps": "Leather Straps",
   "item.leatherplus.steel": "Steel",
   "item.leatherplus.steel_chunk": "Steel Chunk",
   "item.leatherplus.steel_nugget": "Steel Nugget",
+  "item.leatherplus.flintknife": "Flint Knife",
 
   "block.leatherplus.steel_block": "Steel Block",
 

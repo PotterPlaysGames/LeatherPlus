@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "PH ",
+    "IB "
+  ],
+  "key": {
+    "S": {
+      "item": "leatherplus:strapcutterbolt"
+    },
+    "P": {
+      "item": "leatherplus:strapcutterplate"
+    },
+    "H": {
+      "item": "leatherplus:strapcutterhandle"
+    },
+    "I": {
+      "item": "leatherplus:strapcutterinsert"
+    },
+    "B": {
+      "item":"leatherplus:strapcutterblade"
+    }
+  },
+  "result": {
+    "item": "leatherplus:strapcutter",
+    "count": 1
+  }
+}

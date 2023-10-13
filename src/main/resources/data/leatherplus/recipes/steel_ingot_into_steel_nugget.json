@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "leatherplus:steel"
+    }
+  ],
+  "result": {
+    "item": "leatherplus:steel_nugget",
+    "count": 9
+  }
+}

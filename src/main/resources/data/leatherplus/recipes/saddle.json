@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SLS",
+    "SLS",
+    "N N"
+  ],
+  "key": {
+    "N": {
+      "item": "leatherplus:steel_nugget"
+    },
+    "S": {
+      "item": "leatherplus:straps"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:saddle",
+    "count": 1
+  }
+}

@@ -19,11 +19,18 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.leatherplus_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.STRAPS.get());
+                        pOutput.accept(ModItems.STRAPCUTTERHANDLE.get());
+                        pOutput.accept(ModItems.STRAPCUTTERINSERT.get());
+                        pOutput.accept(ModItems.STRAPCUTTERPLATE.get());
+                        pOutput.accept(ModItems.STRAPCUTTERBOLT.get());
+                        pOutput.accept(ModItems.STRAPCUTTERBLADE.get());
                         pOutput.accept(ModItems.STRAPCUTTER.get());
                         pOutput.accept(ModItems.STEEL.get());
                         pOutput.accept(ModItems.STEEL_NUGGET.get());
                         pOutput.accept(ModItems.STEEL_CHUNK.get());
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
+                        pOutput.accept(ModItems.FLINTKNIFE.get());
+
                     })
                     .build());
 
