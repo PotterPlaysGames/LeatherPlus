@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CL"
+  ],
+  "key": {
+    "C": {
+      "item": "leatherplus:strapcutter"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "leatherplus:straps",
+    "count": 16
+  }
+}

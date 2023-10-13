@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ISI",
+    "SSS",
+    "ISI"
+  ],
+  "key": {
+    "S": {
+      "item": "leatherplus:steel"
+    },
+    "I": {
+      "item": "minecarft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "leatherplus:strapcutterplate",
+    "count": 1
+  }
+}

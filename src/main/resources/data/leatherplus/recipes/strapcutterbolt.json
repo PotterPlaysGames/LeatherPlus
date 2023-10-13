@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "N N",
+    "SSS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "leatherplus:steel"
+    },
+    "N": {
+      "item": "leatherplus:steel_nugget"
+    }
+  },
+  "result": {
+    "item": "leatherplus:strapcutterbolt",
+    "count": 1
+  }
+}

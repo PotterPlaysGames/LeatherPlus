@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FL"
+  ],
+  "key": {
+    "F": {
+      "item": "leatherplus:flintknife"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "leatherplus:straps",
+    "count": 4
+  }
+}
