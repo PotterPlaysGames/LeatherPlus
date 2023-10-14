@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "S S",
-    "PH ",
-    "IB "
+    "BS ",
+    "PIS",
+    "  H"
   ],
   "key": {
     "S": {
