@@ -1,8 +1,6 @@
 ~~~~~~~~~~~How to make Vinyl Mixture~~~~~~~~~~~~~
-Pump a Petrol-based plasticizer into a mixing tub
-Add UV Light Stablizer
-Add Flame Retardant Solution
-As being mixed add vinyl
+Pump a Petrol-based plasticizer into a cauldron
+add vinyl
 Add Dyes into the mixture
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -24,14 +22,27 @@ Minecraft Terms:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Stuff to create:
-Crusher
 Andesite Powder [Item]
 Quartz Powder [Item]
-Mixing Tub
-Mycelium Juicer
-Mycelium Concentrate
 Vinyl Powder [Item]
-Coating Machine
-Roll of Paper
-Thickening agent
-Fabric Backing
+Roll of Paper [Item]
+Fabric Backing [Item]
+Synthetic Leather [Item]
+
+Mycelium Concentrate [Fluid]
+Thickening agent [Fluid]
+
+Crusher [Machine]
+Mycelium Juicer [Machine]
+--
+Coating Machine [Machine]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Process
+
+~~~~~~~~~~~~~~~~~~~~
+
+
+
+Andesite Powder + Quartz Powder = Vinyl Powder
