@@ -30,6 +30,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.STEEL_CHUNK.get());
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                         pOutput.accept(ModItems.FLINTKNIFE.get());
+                        pOutput.accept(ModItems.ANDESITE_POWDER.get());
+                        pOutput.accept(ModItems.QUARTZ_POWDER.get());
+                        pOutput.accept(ModItems.VINYL_POWDER.get());
+                        pOutput.accept(ModItems.ROLL_OF_PAPER.get());
+                        pOutput.accept(ModItems.FABRIC_BACKING.get());
 
                     })
                     .build());

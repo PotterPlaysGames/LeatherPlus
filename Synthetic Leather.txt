@@ -24,10 +24,14 @@ Minecraft Terms:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Stuff to create:
+Crusher
+Andesite Powder [Item]
+Quartz Powder [Item]
 Mixing Tub
-Liquid Plastic
-Uv Light Stablizer
-Flame Retardant
-Vinyl Powder
+Mycelium Juicer
+Mycelium Concentrate
+Vinyl Powder [Item]
 Coating Machine
 Roll of Paper
+Thickening agent
+Fabric Backing

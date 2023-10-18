@@ -47,6 +47,21 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ANDESITE_POWDER = ITEMS.register("andesite_powder",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> QUARTZ_POWDER = ITEMS.register("quartz_powder",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> VINYL_POWDER = ITEMS.register("vinyl_powder",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ROLL_OF_PAPER = ITEMS.register("roll_of_paper",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> FABRIC_BACKING = ITEMS.register("fabric_backing",
+            () -> new Item(new Item.Properties()));
+
     //////////////////////////////////////////////////////
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
