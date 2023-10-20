@@ -4,18 +4,15 @@ import net.minecraft.world.inventory.CraftingContainer;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.crafting.RecipeType;
-import net.minecraft.world.item.crafting.CraftingRecipe;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.ItemHandlerHelper;
+import net.potterplaysgames.leatherplus.api.ApiUtils;
 
-public class StrapCutterItem extends Item {
-    public StrapCutterItem(Properties pProperties) {
+import javax.annotation.Nonnull;
+
+public class StrapCuttingItem extends Item {
+    public StrapCuttingItem(Properties pProperties) {
         super(pProperties);
         MinecraftForge.EVENT_BUS.register(this); // Register this item as an event listener
     }
@@ -29,7 +26,30 @@ public class StrapCutterItem extends Item {
         // If leather is used, reduce the durability
         if (hasLeather) {
             reduceDurability(stack, 1); // Reduce the durability by 1 (or the appropriate amount)
+            if (stack.getDamageValue() >= stack.getMaxDamage()) {
+                // The Strap Cutter has run out of durability, so it will be consumed
+            } else {
+                // Set the count to 1 to ensure it stays in the crafting result slot
+                stack.setCount(1);
+            }
         }
+    }
+
+    @Nonnull
+    @Override
+    public ItemStack getCraftingRemainingItem(@Nonnull ItemStack stack)
+    {
+        ItemStack container = stack.copy();
+        if(container.hurt(1, ApiUtils.RANDOM_SOURCE, null))
+            return ItemStack.EMPTY;
+        else
+            return container;
+    }
+
+    @Override
+    public boolean hasCraftingRemainingItem(@Nonnull ItemStack stack)
+    {
+        return true;
     }
 
     private boolean hasLeatherInCrafting(CraftingContainer container) {
@@ -49,23 +69,4 @@ public class StrapCutterItem extends Item {
         stack.setDamageValue(newDamage); // Set the updated durability
     }
 
-    public boolean isValidRepairItem(ItemStack pToRepair, ItemStack pRepair) {
-        // Check if the repair item is a StrapCutterItem
-        if (pRepair.getItem() instanceof StrapCutterItem) {
-            // Implement your custom logic to check if the StrapCutterItem can be repaired using the "Steel" item
-            if (canBeRepairedWithSteel(pRepair)) {
-                // This StrapCutterItem can be repaired with the "Steel" item
-                return true;
-            }
-        }
-
-        return super.isValidRepairItem(pToRepair, pRepair);
-    }
-
-    private boolean canBeRepairedWithSteel(ItemStack stack) {
-        // Implement your custom logic here to check if the StrapCutterItem can be repaired with "Steel"
-        // Return true if it can, false otherwise
-        // You can consider various factors such as custom attributes or other item properties
-        return stack.getDamageValue() < stack.getMaxDamage();
-    }
 }
