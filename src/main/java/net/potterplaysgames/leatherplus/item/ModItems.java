@@ -32,7 +32,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> STRAPCUTTER = ITEMS.register("strapcutter",
-            () -> new StrapCuttingItem(new Item.Properties().durability(1048)));
+            () -> new StrapCuttingItem(new Item.Properties().durability(64)));
 
     public static final RegistryObject<Item> FLINTKNIFE = ITEMS.register("flintknife",
             () -> new StrapCuttingItem(new Item.Properties().durability(1)));
@@ -62,6 +62,15 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> FABRIC_BACKING = ITEMS.register("fabric_backing",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_COW_HIDE = ITEMS.register("raw_cow_hide",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_PIG_HIDE = ITEMS.register("raw_pig_hide",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_SHEEP_HIDE = ITEMS.register("raw_sheep_hide",
             () -> new Item(new Item.Properties()));
 
     //////////////////////////////////////////////////////

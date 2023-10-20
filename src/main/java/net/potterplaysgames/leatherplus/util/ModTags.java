@@ -18,6 +18,7 @@ public class ModTags {
 
     public static class Items{
         public static final TagKey<Item> STEELTAG = tag("steeltag");
+        public static final TagKey<Item> HIDETAG = tag("hidetag.json");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(LeatherPlus.MOD_ID, name));

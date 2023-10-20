@@ -18,6 +18,9 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STRAPCUTTER.get()))
                     .title(Component.translatable("creativetab.leatherplus_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.RAW_COW_HIDE.get());
+                        pOutput.accept(ModItems.RAW_PIG_HIDE.get());
+                        pOutput.accept(ModItems.RAW_SHEEP_HIDE.get());
                         pOutput.accept(ModItems.STRAPS.get());
                         pOutput.accept(ModItems.STRAPCUTTERHANDLE.get());
                         pOutput.accept(ModItems.STRAPCUTTERINSERT.get());
@@ -25,11 +28,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.STRAPCUTTERBOLT.get());
                         pOutput.accept(ModItems.STRAPCUTTERBLADE.get());
                         pOutput.accept(ModItems.STRAPCUTTER.get());
+                        pOutput.accept(ModItems.FLINTKNIFE.get());
                         pOutput.accept(ModItems.STEEL.get());
                         pOutput.accept(ModItems.STEEL_NUGGET.get());
                         pOutput.accept(ModItems.STEEL_CHUNK.get());
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
-                        pOutput.accept(ModItems.FLINTKNIFE.get());
                         pOutput.accept(ModItems.ANDESITE_POWDER.get());
                         pOutput.accept(ModItems.QUARTZ_POWDER.get());
                         pOutput.accept(ModItems.VINYL_POWDER.get());

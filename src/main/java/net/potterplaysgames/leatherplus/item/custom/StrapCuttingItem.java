@@ -1,5 +1,6 @@
 package net.potterplaysgames.leatherplus.item.custom;
 
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.inventory.CraftingContainer;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -8,6 +9,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.potterplaysgames.leatherplus.api.ApiUtils;
+import net.potterplaysgames.leatherplus.util.ModTags;
 
 import javax.annotation.Nonnull;
 
@@ -67,6 +69,10 @@ public class StrapCuttingItem extends Item {
         int newDamage = Math.min(currentDamage + amount, stack.getMaxDamage()); // Calculate the new durability
 
         stack.setDamageValue(newDamage); // Set the updated durability
+    }
+
+    public boolean isValidRepairItem(ItemStack pToRepair, ItemStack pRepair) {
+        return pRepair.is(ModTags.Items.STEELTAG) || super.isValidRepairItem(pToRepair, pRepair);
     }
 
 }
