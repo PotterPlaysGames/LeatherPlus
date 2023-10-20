@@ -6,8 +6,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.potterplaysgames.leatherplus.LeatherPlus;
+import net.potterplaysgames.leatherplus.item.custom.StrapCutterItem;
 
 public class ModItems {
+
     //Long List of items
     //Deferred Register is a massive list of objects kinda like a big array.
     public static final DeferredRegister<Item> ITEMS =
@@ -30,7 +32,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> STRAPCUTTER = ITEMS.register("strapcutter",
-            () -> new Item(new Item.Properties()));
+            () -> new StrapCutterItem(new Item.Properties().durability(1048)));
 
     public static final RegistryObject<Item> FLINTKNIFE = ITEMS.register("flintknife",
             () -> new Item(new Item.Properties()));
