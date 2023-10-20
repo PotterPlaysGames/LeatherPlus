@@ -73,6 +73,12 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_SHEEP_HIDE = ITEMS.register("raw_sheep_hide",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SLICED_RAW_PIG_HIDE = ITEMS.register("sliced_raw_pig_hide",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PORK_RINDS = ITEMS.register("pork_rinds",
+            () -> new Item(new Item.Properties().food(ModFoods.PORK_RINDS)));
+
     //////////////////////////////////////////////////////
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

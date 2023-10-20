@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CL"
+  ],
+  "key": {
+    "C": {
+      "item": "leatherplus:strapcutter"
+    },
+    "L": {
+      "item": "leatherplus:raw_pig_hide"
+    }
+  },
+  "result": {
+    "item": "leatherplus:sliced_raw_pig_hide",
+    "count": 4
+  }
+}

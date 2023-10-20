@@ -20,6 +20,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RAW_COW_HIDE.get());
                         pOutput.accept(ModItems.RAW_PIG_HIDE.get());
+                        pOutput.accept(ModItems.SLICED_RAW_PIG_HIDE.get());
+                        pOutput.accept(ModItems.PORK_RINDS.get());
                         pOutput.accept(ModItems.RAW_SHEEP_HIDE.get());
                         pOutput.accept(ModItems.STRAPS.get());
                         pOutput.accept(ModItems.STRAPCUTTERHANDLE.get());
