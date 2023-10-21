@@ -22,6 +22,8 @@
   "item.leatherplus.sliced_raw_pig_hide": "Sliced Raw Pig Hide",
   "item.leatherplus.pork_rinds": "Pork Rinds",
 
+  "tooltip.leathermod.strap_cutter.tooltip": "Used to craft straps for tools",
+
   "block.leatherplus.steel_block": "Steel Block",
 
   "creativetab.leatherplus_tab": "Leather Plus Tab"
