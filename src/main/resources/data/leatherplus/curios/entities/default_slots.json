@@ -1,4 +1,4 @@
 {
   "entities": ["player"],
-  "slots": ["curio", "head", "back", "belt", "body", "bracelet", "charm", "head", "hands", "necklace", "ring"]
+  "slots": ["curio", "head", "back", "belt", "body", "bracelet", "charm", "charm", "charm", "hands", "necklace", "ring"]
 }
